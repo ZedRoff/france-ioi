@@ -1,7 +1,7 @@
-for i, loop in enumerate(range(40)):
+for i in range(20):
    for x in range(20):
-      if(i % 2 == 0):
-        print("OX", end="")
-      else:
-        print("XO", end="")
-   print("\n")
+      print("OX", end = "")
+   print()
+   for y in range(20):
+      print("XO", end = "")
+   print()
