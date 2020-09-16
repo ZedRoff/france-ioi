@@ -1,0 +1,15 @@
+nbProduits = int(input())
+nbPersonnes = int(input())
+n = [_ for _ in range(0, nbProduits, 1)]
+liste = [0] * (nbProduits)
+
+for x in range(0, nbPersonnes, 1):
+  entree = int(input())
+  if entree == 0:
+    liste[entree] = liste[entree] + 1
+  else:
+    liste[entree] = liste[entree] + 1
+
+
+for x in range(0, len(n), 1):
+  print(liste[x])
