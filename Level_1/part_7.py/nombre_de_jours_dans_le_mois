@@ -1,0 +1,12 @@
+entree = int(input())
+
+if entree >= 1 and entree <= 3:
+  print(30)
+elif entree >= 4 and entree <= 6:
+  print(31)
+elif entree >= 7 and entree <= 9:
+  print(30)
+elif entree == 10:
+  print(31)
+else:
+  print(29)
