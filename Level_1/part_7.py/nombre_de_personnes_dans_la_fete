@@ -1,0 +1,19 @@
+nbPersonnes = int(input())
+tab = [0] * nbPersonnes
+count = 0
+for x in range(0, nbPersonnes*2, 1):
+  entree = int(input())
+  if entree > 0:
+    tab[entree-1] = tab[entree-1] + 1
+
+    
+    if count < sum(tab):
+      count = sum(tab)
+    else:
+      count = count
+  else:
+    tab[abs(entree)-1] = tab[abs(entree)-1] - 1
+
+  
+print(count)
+  
