@@ -1,3 +1,6 @@
+# The code is false
+
+
 nbLM = input().split(" ")
 nbLignes = int(nbLM[0])
 nbMots = int(nbLM[1])
