@@ -1,0 +1,17 @@
+d_debut = int(input())
+d_fin = int(input())
+nbEntrees = int(input())
+
+tab = []
+
+for x in range(0, nbEntrees, 1):
+  d_entree = int(input())
+  tab.append(d_entree)
+
+tab_suspect = [0] * len(tab)
+for x in range(0, len(tab), 1):
+  if tab[x] >= d_debut and tab[x] <= d_fin:
+    tab_suspect[x] = tab_suspect[x] + 1
+
+print(sum(tab_suspect))
+
