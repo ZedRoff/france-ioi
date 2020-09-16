@@ -1,0 +1,30 @@
+soldat_p = []
+for _ in range(0, 1, 1):
+  h1 = int(input())
+  soldat_p.append(h1)
+  h2 = int(input())
+  soldat_p.append(h2)
+
+soldat_d = []
+for _ in range(0, 1, 1):
+  h1 = int(input())
+  soldat_d.append(h1)
+  h2 = int(input())
+  soldat_d.append(h2)
+
+res = ""
+
+if soldat_p[0]<=soldat_d[0] and soldat_p[1] >= soldat_d[0]:
+  print("Amis")
+elif soldat_d[0] <= soldat_p[0] and soldat_d[1] >= soldat_p[0]:
+  print("Amis")
+else:
+  print("Pas amis")
+"""
+
+4
+6
+2
+4
+
+"""
